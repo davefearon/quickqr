@@ -1,0 +1,30 @@
+CACHE MANIFEST
+# June 27 a
+
+index.html
+
+css/style.css
+
+js/libs/modernizr-2.0.min.js
+js/libs/respond.min.js
+
+//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js
+
+img/bright_squares.png
+img/Blue.png
+
+
+favicon.ico
+apple-touch-icon-114x114-precomposed.png
+apple-touch-icon-57x57-precomposed.png
+apple-touch-icon-72x72-precomposed.png
+apple-touch-icon-precomposed.png
+apple-touch-icon.png
+
+humans.txt
+
+NETWORK:
+http://www.google-analytics.com/
+https://www.paypal.com/en_US/i/scr/
+http://quickqr.me/now
+*

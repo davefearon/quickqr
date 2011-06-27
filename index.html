@@ -1,0 +1,96 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en" manifest="cache.manifest"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en" manifest="cache.manifest"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en" manifest="cache.manifest"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" manifest="cache.manifest"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		More info: h5bp.com/b/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>QuickQR.me | A QR Code Generator Service!</title>
+	<meta name="description" content="Generate quick QR codes for your site automagically">
+	<meta name="author" content="Dave Fearon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- More ideas for your <head> here: h5bp.com/docs/#head-Tips -->
+
+	<script src="js/libs/modernizr-2.0.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<div class="title">quickqr.me</div>
+			<div class="tagline">generate qr codes automagically</div>
+		</header>
+
+		<div id="main" role="main">
+			<div class="section">
+				<div class="how">
+					<span>How does it work?</span>
+					<br/>
+					Just put the following url in the src of an image tag and voila! Instant QR code to your website!
+				</div>
+				<div class="sampleurl">//quickqr.me/now</div>
+			</div>
+
+			<div class="section">
+				<div class="how">
+					<span>Example?</span>
+					<br/>
+					If you're serious, here's an example.
+				</div>
+				<div class="sampleurl">&lt;img src="//quickqr.me/now" /&gt;</div>
+			</div>
+
+			<div class="section">
+				<div class="ortry">
+					<span>Want a sample?</span>
+					<br/>
+					Try this on for size!
+				</div>
+				<div class="sampleuses">
+					<img src="//quickqr.me/now" />
+				</div>
+			</div>
+			
+			<div class="section">
+				<div class="how">
+					<span>This site is super helpful!</span>
+					<br/>
+					While that isn't a question, I'll let it slide this time. Thanks!
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="created">
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="W4U8JLB6ZNEDA">
+					<label for="submit"><span>Created by <a href="http://davefearon.com" target="_blank">Dave Fearon</a> to enrich your life | Perhaps you wish to donate?</span></label>
+					<input type="image" class="donate" src="/img/Blue.png" style="width:32px; height:32px;" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form>
+			</div>
+		</footer>
+	</div> <!--! end of #container -->
+
+	<script>
+		var _gaq=[['_setAccount','UA-2895777-11'],['_trackPageview'],['_trackPageLoadTime']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+			s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+		chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7 ]>
+		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
+		<script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
+	<![endif]-->
+</body>
+</html>
